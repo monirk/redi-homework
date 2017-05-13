@@ -14,6 +14,15 @@ public class Person {
 
     private String email;
 
+    public  Person(){
+        // do anything want to iniali
+    }
+    public Person(String firstName, String lastName, Date dateOfBirth, String email){
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.dateOfBirth=dateOfBirth;
+        this.email=email;
+    }
     public String getFirstName() {
         return firstName;
     }

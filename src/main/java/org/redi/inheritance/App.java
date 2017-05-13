@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Created by redi on 5/8/17.
  */
-public class App {
+/*public class App {
     public static void main(String[] args){
         System.out.print("Hallo Inheritance");
         Student student=new Student();
@@ -17,4 +17,4 @@ public class App {
 
         System.out.print("Student name is:"+ student.getFirstName() + "last name ist"+ student.getLastName());
     }
-}
+}*/
