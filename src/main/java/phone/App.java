@@ -6,7 +6,7 @@ package phone;
 public class App {
     public static void main(String[] args){
         Factory factory=new Factory();
-        Phone mobilPhone=factory.createinstance("Mobile Phone");
+        Phone mobilPhone=factory.createInstance("Mobile Phone");
         if (mobilPhone instanceof MobilPhone){
             ((MobilPhone)mobilPhone).sendSMS("+490000","How are you");
         }

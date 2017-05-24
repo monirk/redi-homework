@@ -4,7 +4,7 @@ package phone;
  * Created by redi on 5/22/17.
  */
 public class Factory {
-        public Phone createinstance(String type) {
+        public Phone createInstance(String type) {
             if ("Mobile Phone".equalsIgnoreCase(type)) {
                 return new MobilPhoneImpl();
             }
